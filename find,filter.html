@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <script>
+            function isPrime (value,index,arr){
+                var start=2;
+                while(start<=Math.sqrt(value)){
+                    if(value% start++<1){
+                        return false;
+                    }
+                }
+                return value>1;
+            }
+            document.write ([8,7,31,22].findIndex(isPrime));
+        </script>
+    </body>
+</html>

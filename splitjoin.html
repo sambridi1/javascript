@@ -1,0 +1,28 @@
+<html>
+    <body>
+        
+        <script>
+            //splitjoin
+             var text="my name is jeeban ";
+            var result2=text.split('-');
+            
+            var arr=["Angularjs","Nodejs","Jquery"];
+            var result=arr.join('-');
+            document.write(result2);
+            dcoument.write("<br>");
+            document.write(result);
+            
+        </script>
+         <br>
+         <script>
+            //reduce(func,initial)
+            var arr=[2,3,1,5];
+            var a=arr.reduce(function(accumulator,currentValue)
+            {
+                return accumulator+currentValue;
+
+            },0);
+            document.write("The sum of the array elements is:"+a);
+            </script>
+    </body>
+</html>
